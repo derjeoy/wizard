@@ -62,9 +62,9 @@
     <footer class="footer">
         <div class="@yield('container-style')">
             <p>
-                &copy; {{ date('Y') }} {{ config('wizard.copyright', 'AICODE.CC') }}
-                <a class="fa fa-github wz-version" target="_blank" href="https://github.com/mylxsw/wizard">
-                    v{{ config('wizard.version', '1') }}</a>
+                &copy; {{ date('Y') }} {{ config('wizard.copyright', 'WANQIANTECH') }}
+                <a class="fa fa-github wz-version" target="_blank" href="https://beian.miit.gov.cn">
+                    {{ config('wizard.version', '1') }}</a>
                 {!! statistics() !!}
             </p>
         </div>

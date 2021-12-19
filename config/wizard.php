@@ -2,7 +2,7 @@
 /**
  * Wizard
  *
- * @link      https://aicode.cc/
+ * @link      https://docs.wanqian.tech/
  * @copyright 管宜尧 <mylxsw@aicode.cc>
  */
 
@@ -10,7 +10,7 @@ return [
     /**
      * 当前版本
      */
-    'version'                    => '1.2.7',
+    'version'                    => '鄂ICP备2021020754号-2',
     /**
      * 版本检查，暂时不可用
      */
@@ -46,11 +46,11 @@ return [
     /**
      * 静态资源版本
      */
-    'resource_version'           => env('WIZARD_RESOURCE_VERSION', '201709071013'),
+    'resource_version'           => env('WIZARD_RESOURCE_VERSION', '1.2.7'),
     /**
      * 版权地址
      */
-    'copyright'                  => env('WIZARD_COPYRIGHT', 'AICODE.CC'),
+    'copyright'                  => env('WIZARD_COPYRIGHT', 'WANQIAN.TECH'),
 
     /**
      * 管理员在公共页面可以查看所有项目
