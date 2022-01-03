@@ -92,10 +92,17 @@
                 $.wz.confirm('确定要为该文档创建分享链接？', function () {
                     var url = $this.data('url');
 
+                    // console.log('');
+
                     $.wz.request('post', url, {}, function (data) {
+
                         $.wz.alert(
-                            '分享链接地址为: <br /><a target="_blank" href="' + $.wz.url(data.link) + '">' + $.wz.url(data.link) + '</a>'
+                            '分享链接地址为: <br /><a target="_blank" href="' + $.wz.url(data.link) + '">'+ '{{ $pageItem->title }}<br />' + $.wz.url(data.link) + '</a>'
                         );
+                        
+                        // $.wz.alert(
+                        //     '分享链接地址为: <br /><a target="_blank" href="' + $.wz.url(data.link) + '">'+ '{{ $pageItem->title }}<br />' + $.wz.url(data.link) + '<br />如果提示需要登陆，请用公共账号：<br />账号：ximo@ximo.com<br />密码：ximo123<br />如果想加入组织，请自行注册，邀请码：ximo;姓名请写真实姓名.</a>'
+                        // );
                     });
                 });
             });

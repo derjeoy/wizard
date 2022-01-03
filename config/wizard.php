@@ -60,7 +60,7 @@ return [
     /**
      * 登录页面背景图片
      */
-    'login_background_img'       => env('WIZARD_LOGIN_BACKGROUND_IMG', '/assets/background-image.jpeg'),
+    'login_background_img'       => env('WIZARD_LOGIN_BACKGROUND_IMG', '/assets/pexels-photo-3184302.jpeg'),
 
     /**
      * 是否启用文档评论功能

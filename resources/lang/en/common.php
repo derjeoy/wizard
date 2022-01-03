@@ -10,6 +10,7 @@ return [
     'document'   => 'Document',
     'swagger'    => 'Swagger API',
     'project'    => 'Project',
+    'ueditor'     => 'UEditor',
     'user_home'  => 'Home',
     'btn_add'    => 'New',
     'btn_save'   => 'Save',

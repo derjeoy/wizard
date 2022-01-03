@@ -67,6 +67,9 @@
                     {{ config('wizard.version', '1') }}</a>
                 {!! statistics() !!}
             </p>
+            <p>
+                <a class="fa fa-github wz-version" target="_blank" href="{{ url('webstacknav') }}"> 导航 </a>
+            </p>
         </div>
     </footer>
 @endif

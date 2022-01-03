@@ -34,6 +34,9 @@
                             <a data-toggle="modal" data-target="#wz-document-import" class="dropdown-item">
                                 <i class="fa fa-upload mr-2"></i> 批量导入
                             </a>
+                            <a href="{!! wzRoute('project:doc:new:show', ['id' => $project->id, 'type' => 'ueditor',  'pid' => $pageID]) !!}" class="dropdown-item">
+                                <i class="fa fa-book mr-2"></i> 创建 @lang('common.ueditor')
+                            </a>
                         </ul>
                         <button type="button" class="btn bmd-btn-icon" data-href="{!! wzRoute('search:search', ['project_id' => $project->id]) !!}" data-toggle="tooltip" title="搜索">
                             <i class="material-icons">search</i>

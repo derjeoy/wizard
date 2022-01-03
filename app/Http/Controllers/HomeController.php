@@ -14,6 +14,7 @@ use App\Repositories\Tag;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
+//use Encore\Admin\Layout\Content;
 
 class HomeController extends Controller
 {
@@ -161,5 +162,10 @@ class HomeController extends Controller
         $this->alertSuccess(__('common.lang_swatch_success'));
 
         return redirect(wzRoute('home'));
+    }
+
+    public function webstacknav()
+    {
+        return view('webstacknav');
     }
 }

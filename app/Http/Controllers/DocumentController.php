@@ -48,7 +48,7 @@ class DocumentController extends Controller
     {
         $this->validate(
             $request,
-            ['type' => 'in:swagger,markdown,table', 'pid' => 'integer|min:0']
+            ['type' => 'in:swagger,markdown,table,ueditor', 'pid' => 'integer|min:0']
         );
 
         /** @var Project $project */
